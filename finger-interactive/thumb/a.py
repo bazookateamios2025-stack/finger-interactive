@@ -1,13 +1,13 @@
 import requests
 
-START = 4
+START = 1
 END = 44
 
-BASE_URL = "https://storage.googleapis.com/finger-interactive/finger_interactive/{}.mp4"
+BASE_URL = "https://storage.googleapis.com/finger-interactive/finger_interactive/thumb/{}.webp"
 
 for i in range(START, END + 1):
     url = BASE_URL.format(i)
-    filename = f"{i}.mp4"
+    filename = f"{i}.webp"
 
     print(f"Downloading {url} -> {filename}")
 
