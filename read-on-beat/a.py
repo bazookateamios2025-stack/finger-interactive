@@ -2,10 +2,10 @@ import requests
 import os
 
 START = 1
-END = 16
+END = 5
 
-VIDEO_URL = "https://storage.googleapis.com/finger-interactive/trending/{}.mp4"
-THUMB_URL = "https://storage.googleapis.com/finger-interactive/trending/thumb/{}.webp"
+VIDEO_URL = "https://storage.googleapis.com/finger-interactive/read_on_beat/{}.mp4"
+THUMB_URL = "https://storage.googleapis.com/finger-interactive/read_on_beat/thumb/{}.webp"
 
 # thư mục lưu ảnh
 os.makedirs("thumb", exist_ok=True)
