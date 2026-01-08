@@ -662,7 +662,7 @@
   },
   {
     "categoryName": "Read OnBeat",
-    "videoCount": 5,
+    "videoCount": 7,
     "folder": "read_on_beat",
     "landscape": [],
     "videos": [
@@ -696,6 +696,20 @@
       },
       {
         "id": 5,
+        "time": 1,
+        "kcal": 80,
+        "orientation": "portrait",
+        "view": 9804
+      },
+      {
+        "id": 6,
+        "time": 1,
+        "kcal": 80,
+        "orientation": "portrait",
+        "view": 9804
+      },
+      {
+        "id": 7,
         "time": 1,
         "kcal": 80,
         "orientation": "portrait",
